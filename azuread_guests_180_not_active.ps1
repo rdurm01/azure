@@ -2,6 +2,8 @@
 import-module Microsoft.Graph
 Connect-MgGraph -Scopes "user.Read.All"
 
+Connect-AzureAD
+
 
 $ExportCSV = 1
 $InactivityPeriod = 180
